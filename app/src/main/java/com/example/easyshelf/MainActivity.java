@@ -26,9 +26,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         setContentView(R.layout.activity_main);
 
         DrawerLayout drawerLayout = findViewById(R.id.drawer_layout);
-
-
-
         NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
@@ -96,7 +93,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                     new AboutUsFragment()).commit();
         }
-
 
         DrawerLayout drawerLayout = findViewById(R.id.drawer_layout); // Инициализация переменной drawerLayout
         drawerLayout.closeDrawer(GravityCompat.START);

@@ -26,13 +26,13 @@
         <FrameLayout
             android:id="@+id/fragment_container"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+            android:layout_height="match_parent" />
 
         <ImageView
             android:id="@+id/toolbar_hamburger"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_menu"
+            android:src="@drawable/logo"
             android:layout_gravity="start"
             android:paddingStart="16dp"
             android:paddingEnd="16dp"/>
@@ -46,9 +46,4 @@
         android:id="@+id/nav_view"
         app:headerLayout="@layout/nav_header"
         app:menu="@menu/drawer_menu"/>
-
-
-
-
-
 </androidx.drawerlayout.widget.DrawerLayout>
