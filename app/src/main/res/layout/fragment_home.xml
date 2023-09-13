@@ -3,12 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    style="@style/SCREEN"
     tools:context=".HomeFragment">
 
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_login"
-        style="@style/ButtonWhite"
+        style="@style/BUTTON"
         android:layout_width="340dp"
         android:layout_height="58dp"
         android:layout_gravity="center_horizontal"
