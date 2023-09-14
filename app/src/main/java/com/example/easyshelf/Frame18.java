@@ -1,8 +1,10 @@
 package com.example.easyshelf;
 
 import androidx.appcompat.app.AppCompatActivity;
-
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
 
 public class Frame18 extends AppCompatActivity {
 
@@ -10,5 +12,15 @@ public class Frame18 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_frame18);
+
+        ImageView btnSw = findViewById(R.id.btn_sw);
+        btnSw.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Создаем Intent для запуска активности activity_frame24
+                Intent intent = new Intent(Frame18.this, Frame24.class);
+                startActivity(intent);
+            }
+        });
     }
 }
