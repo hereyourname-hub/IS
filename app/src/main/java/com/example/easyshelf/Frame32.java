@@ -5,19 +5,19 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 
-public class SplashScreen extends AppCompatActivity {
+public class Frame32 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash_screen);
+        setContentView(R.layout.activity_frame32);
 
         Thread thread = new Thread(){
             @Override
             public void run(){
                 try {
-                    sleep(2000);
-                    startActivity(new Intent(SplashScreen.this, MainActivity.class));
+                    sleep(2500);
+                    startActivity(new Intent(Frame32.this, Frame24.class));
                     finish();
 
                 }catch (Exception e){

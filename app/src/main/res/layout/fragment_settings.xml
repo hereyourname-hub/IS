@@ -2,8 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    style="@style/SCREEN"
-    android:background="@color/white">
+    style="@style/SCREEN">
     
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,7 +23,6 @@
                 android:text="Отображать элементы управления на экране"
                 style="@style/TEXT"
                 android:textSize="18sp"
-                android:textColor="@color/black"
                 android:textStyle="bold" />
 
             <Switch
@@ -49,7 +47,6 @@
                 android:textSize="18sp"
                 android:gravity="center_vertical"
                 android:padding="10dp"
-                android:textColor="@color/black"
                 android:textStyle="bold"/>
 
             <Switch
@@ -60,14 +57,6 @@
                 />
         </LinearLayout>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text=""
-            android:textStyle="bold"
-            android:textSize="15sp"
-            android:padding="8dp"
-            android:layout_margin="8dp"/>
 
     </LinearLayout>
 </RelativeLayout>

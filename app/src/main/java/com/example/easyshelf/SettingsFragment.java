@@ -26,9 +26,6 @@ public class SettingsFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_settings, container, false);
 
-        // Уберите эту строку, так как getSupportActionBar() не применим к фрагментам
-        // getSupportActionBar().hide();
-
         switcher = view.findViewById(R.id.switcher);
 
         sharedPreferences = requireActivity().getSharedPreferences("MODE", Context.MODE_PRIVATE);

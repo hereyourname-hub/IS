@@ -4,8 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".Frame24">
 
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="249dp"
+        android:layout_height="156dp"
+        android:layout_marginTop="108dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.187"
+        app:srcCompat="@drawable/arrow_up" />
 
     <ImageView
         android:id="@+id/imageView9"
@@ -16,40 +29,29 @@
         app:layout_constraintHorizontal_bias="0.326"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5"
-        app:layout_constraintVertical_bias="0.515"
+        app:layout_constraintVertical_bias="0.28"
         app:srcCompat="@drawable/group17" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="249dp"
-        android:layout_height="156dp"
-        android:layout_marginTop="228dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5"
-        app:layout_constraintVertical_bias="0.072"
-        app:srcCompat="@drawable/arrow_down" />
 
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
+        android:background="@color/white"
         app:layout_constraintBottom_toTopOf="@+id/imageView6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView5"
-        app:layout_constraintVertical_bias="0.515"
+        app:layout_constraintVertical_bias="0.28"
         app:srcCompat="@drawable/group19" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/imageView6"
         android:layout_width="249dp"
         android:layout_height="156dp"
-        android:layout_marginTop="108dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/arrow_up" />
+        app:srcCompat="@drawable/arrow_down" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

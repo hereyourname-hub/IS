@@ -13,12 +13,14 @@ public class Frame18 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_frame18);
 
+
+
         ImageView btnSw = findViewById(R.id.btn_sw);
         btnSw.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // Создаем Intent для запуска активности activity_frame24
-                Intent intent = new Intent(Frame18.this, Frame24.class);
+                // Создаем Intent для запуска активности activity_frame32
+                Intent intent = new Intent(Frame18.this, Frame32.class);
                 startActivity(intent);
             }
         });
