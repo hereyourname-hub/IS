@@ -16,6 +16,32 @@
     </style>
 
 
+<!--here frame 18-->
+    <style name="ButtonWhite18">
+        <item name="android:background">@drawable/bg_button</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--here frame 24-->
+    <style name="ButtonWhite24">
+        <item name="android:background">@drawable/bg_button24</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ButtonWhiteOval24">
+        <item name="android:background">@drawable/bg_button_oval24</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 
     <style name="ButtonGoogle">
         <item name="android:background">@drawable/bg_button_go</item>
