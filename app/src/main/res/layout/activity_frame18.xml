@@ -5,17 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
+    android:padding="12dp"
     tools:context=".Frame18">
-
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_sw"
         style="@style/ButtonWhite18"
-        android:layout_width="348dp"
-        android:layout_height="56dp"
+        android:layout_width="369dp"
+        android:layout_height="67dp"
+        android:drawableLeft="@drawable/fra18"
+        android:drawablePadding="-60dp"
+        android:gravity="center"
         android:text="Полка"
-        app:srcCompat="@drawable/fra18"
         android:textAppearance="@style/TEXT"
+        android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
