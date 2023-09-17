@@ -1,5 +1,6 @@
 package com.example.easyshelf;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
@@ -40,5 +41,29 @@ public class Frame24 extends AppCompatActivity {
                 dialog.getWindow().setBackgroundDrawableResource(R.drawable.bg_button24);
             }
         });
+    }
+
+    public void openWinterActivity(View view) {
+        // Создаем Intent для запуска активности WinterActivity
+        Intent intent = new Intent(this, WinterActivity.class);
+        startActivity(intent);
+    }
+
+    public void openAutumnActivity(View view) {
+        // Создаем Intent для запуска активности WinterActivity
+        Intent intent = new Intent(this, AutumnActivity.class);
+        startActivity(intent);
+    }
+
+    public void openSummerActivity(View view) {
+        // Создаем Intent для запуска активности WinterActivity
+        Intent intent = new Intent(this, SummerActivity.class);
+        startActivity(intent);
+    }
+
+    public void openSpringActivity(View view) {
+        // Создаем Intent для запуска активности WinterActivity
+        Intent intent = new Intent(this, SpringActivity.class);
+        startActivity(intent);
     }
 }

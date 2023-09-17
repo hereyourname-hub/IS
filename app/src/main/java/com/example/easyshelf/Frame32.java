@@ -16,7 +16,7 @@ public class Frame32 extends AppCompatActivity {
             @Override
             public void run(){
                 try {
-                    sleep(2500);
+                    sleep(2000);
                     startActivity(new Intent(Frame32.this, Frame24.class));
                     finish();
 
